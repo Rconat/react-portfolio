@@ -76,6 +76,7 @@ const Resume = () => (
                         <li>Node.js</li>
                         <li>SQL Databases</li>
                         <li>NoSQL Databases</li>
+                        <li>React</li>
                     </ul>
                 <h2>Adobe Creative Suite</h2>
                     <ul>
