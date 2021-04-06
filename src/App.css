@@ -1,38 +1,169 @@
-.App {
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: White;
+}
+
+img {
+  height: 240px;
+  width: 240px;
+}
+
+#experience h2, #education h2, #proficiencies h2 {
+  font-size: 20px;
+}
+
+#experience ul > li, #education ul > li, #proficiencies ul > li {
+  list-style: none;
+}
+
+#category h2 {
+  text-align: right;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#moreProj {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.projectImageTitle {
+  font-weight: bold;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #F1FAEE;
+  margin-top: 5px;
+}
+
+section {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #F1FAEE;
+  color: #1D3557;
+}
+
+#contact ul > li {
+  padding: 15px;
+  list-style: none;
+  display: inline-flex;
+}
+
+h2 {
+  font-size: 24px;
+  color: #457B9D;
+  font-weight: bold;
+}
+
+a {
+  color: #1D3557;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.bio-text {
+  padding-right: 60px;
+  margin: auto;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+#proj-img {
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+nav {
+  justify-content: space-between !important;
+}
+
+.navbar-collapse, .collapse {
+  flex-grow: unset !important;
+  margin: 0px;
+}
+
+#contact {
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.navbar-toggler-icon {
+  padding: 12px;
+}
+
+/* Media selector for responsive website features */
+/*Medium*/
+@media screen and (max-width:992px){
+
+  #proj-img {
+    width: 80%;
+    height: auto;
+    padding: 0px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  #contact {
+    width: 500px;
   }
-  to {
-    transform: rotate(360deg);
+
+  #contact ul > li {
+    padding: 5px;
+    display: flex;
+    margin-left: 80px;
   }
+
+  #bio-image {
+    margin: 20px;
+  }
+
+  .bio-text {
+    margin: 20px;
+  }
+
+}
+
+/*small*/
+@media screen and (max-width:580px){
+
+  #category h2 {
+    text-align: center;
+  }
+
+  #proj-img {
+    width: auto;
+    height: 200px;
+    padding: 10px;
+  }
+  
+  #portfolio {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+
+  #bio-image {
+    margin: auto;
+  }
+
+  #contact {
+    margin: 20px;
+  }
+
 }

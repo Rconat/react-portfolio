@@ -7,7 +7,7 @@ const Contact = () => (
             <div className="col-lg">
             <h2>Contact Info</h2>
             <hr/>
-            <ul>
+            <ul >
                 <li><a href="mailto: ryan.conat@gmail.com"><strong>Email</strong></a></li>
                 <li><a href="https://github.com/Rconat"><strong>Github Profile</strong></a></li>
                 <li><a href="https://www.linkedin.com/in/ryan-conat-476a571b8/"><strong>LinkedIn Profile</strong></a></li>

@@ -4,7 +4,7 @@ const Projects = () => (
     <div class="container">
       <section id="portfolio">
 
-        <h2>Portfolio</h2>
+        <h2>Projects</h2>
         <hr/>
 
         <div class="row">
