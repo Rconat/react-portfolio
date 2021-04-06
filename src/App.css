@@ -27,6 +27,7 @@ img {
 
 a:hover {
   text-decoration: none;
+  color: #457B9D;
 }
 
 #moreProj {
@@ -71,6 +72,7 @@ h2 {
 a {
   font-style: normal;
   color: #1D3557;
+  text-decoration: none;
 }
 
 #bio-image {
