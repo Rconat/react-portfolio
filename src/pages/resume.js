@@ -9,7 +9,7 @@ const Resume = () => (
                 <div className="col-sm-3" id="category">
                     <h2>Education</h2>
                 </div>
-                <div class="col-sm-9" id="education">
+                <div className="col-sm-9" id="education">
                     <h2>2021 (Upcoming!)</h2>
                     <ul>
                         <li>Certificate of Completion - Full Stack developer</li>
@@ -28,11 +28,11 @@ const Resume = () => (
                 </div>
             </div>
             <br/>
-            <div class="row">
-                <div class="col-sm-3" id="category">
+            <div className="row">
+                <div className="col-sm-3" id="category">
                     <h2>Experience</h2>
                 </div>
-                <div class="col-sm-9" id="experience">
+                <div className="col-sm-9" id="experience">
                     <h2>February 2019</h2>
                     <ul>
                         <li>Pipeworks Brewing Company</li>
@@ -61,11 +61,11 @@ const Resume = () => (
                     <br/>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-3" id="category">
+            <div className="row">
+                <div className="col-sm-3" id="category">
                     <h2>Proficiencies</h2>
                 </div>
-                <div class="col-sm-9" id="proficiencies">
+                <div className="col-sm-9" id="proficiencies">
                 <h2>Coding</h2>
                     <ul>
                         <li>HTML</li>
