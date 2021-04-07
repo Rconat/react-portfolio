@@ -53,9 +53,9 @@ const Projects = () => (
           </div>
           
           <div className="col-sm-4" id="projectSix">
-            <a href ="https://github.com/Rconat/mysql-burger-logger">
-              <img className="project image-fluid" src="assets/eat-da-burger.jpg" alt="Eat Da Burger" id="proj-img"/>
-              <p className="projectImageTitle">Eat-Da-Burger!</p>
+            <a href ="https://rconat.github.io/react-employee-directory/">
+              <img className="project image-fluid" src="assets/employee-directory.jpg" alt="react employee directory" id="proj-img"/>
+              <p className="projectImageTitle">React Employee directory</p>
             </a>
           </div>
           
