@@ -7,9 +7,9 @@ This project is a personal webpage to represent my coding work and projects. Thi
  ---
 ## Webpage Hosting
 
-The webpage is hosted on [GitHub](https://rconat.github.io).
+The webpage is hosted on [GitHub](https://rconat.github.io/react-portfolio/).
 
-You can find the repo on [GitHub](https://github.com/Rconat/rConat.github.io).
+You can find the repo on [GitHub](https://github.com/Rconat/react-portfolio).
 
 ---
 
