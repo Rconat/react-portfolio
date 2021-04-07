@@ -54,7 +54,7 @@ const Projects = () => (
           
           <div className="col-sm-4" id="projectSix">
             <a href ="https://rconat.github.io/react-employee-directory/">
-              <img className="project image-fluid" src="assets/employee-directory.jpg" alt="react employee directory" id="proj-img"/>
+              <img className="project image-fluid" src="assets/employee-directory.jpg" alt="React Employee Directory" id="proj-img"/>
               <p className="projectImageTitle">React Employee directory</p>
             </a>
           </div>
