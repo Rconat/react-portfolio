@@ -24,9 +24,9 @@ const Projects = () => (
           </div>
 
           <div className="col-sm-4" id="projectThree">
-            <a href ="https://rconat.github.io/work-day-scheduler/">
-              <img className="project image-fluid" src="assets/workdayscheduler.jpg" alt="Project Image 3" id="proj-img"/>
-              <p className="projectImageTitle">Work Day Scheduler</p>
+            <a href ="https://sheltered-garden-64832.herokuapp.com/">
+              <img className="project image-fluid" src="assets/crypto-university.jpg" alt="Crypto University" id="proj-img"/>
+              <p className="projectImageTitle">Crypto University</p>
             </a>
           </div>
 
