@@ -10,7 +10,7 @@ const Resume = () => (
                     <h2>Education</h2>
                 </div>
                 <div className="col-sm-9" id="education">
-                    <h2>2021 (Upcoming!)</h2>
+                    <h2>2021</h2>
                     <ul>
                         <li>Certificate of Completion - Full Stack developer</li>
                         <li>Northwestern University - Evanston, Illinois</li>
@@ -83,6 +83,12 @@ const Resume = () => (
                         <li>Photoshop</li>
                         <li>Illustrator</li>
                         <li>InDesign</li>
+                    </ul>
+                <h2>3D design</h2>
+                    <ul>
+                        <li>Rhino 3D</li>
+                        <li>Autodesk Maya</li>
+                        <li>AutoCAD</li>
                     </ul>
                 <br/>
                 </div>
